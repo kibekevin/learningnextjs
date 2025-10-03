@@ -8,6 +8,6 @@ export default function GlobalError({error}:{error: Error & {digest?:string}}) {
         <body>
             Global Error
             <h2>Error {error.message}</h2>
-        </body>
+        </body> 
     </html>
 }
